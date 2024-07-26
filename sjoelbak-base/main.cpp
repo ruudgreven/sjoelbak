@@ -129,9 +129,9 @@ int main() {
             ledStripLeft.fill( PicoLed::RGB(20, 255, 20), ledPosition(24), 4);
             ledStripRight.fill( PicoLed::RGB(20, 255, 20), ledPosition(24), 4);
         } else {
-            //Begin bar orange
-            ledStripLeft.fill( PicoLed::RGB(240, 174, 20), ledPosition(24), 4);
-            ledStripRight.fill( PicoLed::RGB(240, 174, 20), ledPosition(24), 4);
+            //Begin bar red
+            ledStripLeft.fill( PicoLed::RGB(255, 20, 20), ledPosition(24), 4);
+            ledStripRight.fill( PicoLed::RGB(255, 20, 20), ledPosition(24), 4);
         }
 
         //Set up board
