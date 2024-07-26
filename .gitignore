@@ -1,3 +1,10 @@
+*.bin
+*.elf
+*.dis
+*.elf.map
+*.hex
+*.uf2
+
 # Prerequisites
 *.d
 

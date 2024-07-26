@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "picoled.hpp": "c",
+        "map": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+}
