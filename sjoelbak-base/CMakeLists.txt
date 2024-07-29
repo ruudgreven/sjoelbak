@@ -13,7 +13,7 @@ pico_sdk_init()
 include("PicoLed/PicoLed.cmake")
 
 add_executable(${PROJECT_NAME}
-    main.cpp
+    main.cpp Puck.cpp Board.cpp
 )
 
 # Create map/bin/hex/uf2 files

@@ -83,10 +83,38 @@ CMakeFiles/sjoelbak_base.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sjoelbak_base.dir/main.cpp.s"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ruud/Development/sjoelbak/sjoelbak-base/main.cpp -o CMakeFiles/sjoelbak_base.dir/main.cpp.s
 
+CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
+CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/Puck.cpp
+CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/Puck.cpp
+
+CMakeFiles/sjoelbak_base.dir/Puck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sjoelbak_base.dir/Puck.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ruud/Development/sjoelbak/sjoelbak-base/Puck.cpp > CMakeFiles/sjoelbak_base.dir/Puck.cpp.i
+
+CMakeFiles/sjoelbak_base.dir/Puck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sjoelbak_base.dir/Puck.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ruud/Development/sjoelbak/sjoelbak-base/Puck.cpp -o CMakeFiles/sjoelbak_base.dir/Puck.cpp.s
+
+CMakeFiles/sjoelbak_base.dir/Board.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
+CMakeFiles/sjoelbak_base.dir/Board.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/Board.cpp
+CMakeFiles/sjoelbak_base.dir/Board.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sjoelbak_base.dir/Board.cpp.obj"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Board.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/Board.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/Board.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/Board.cpp
+
+CMakeFiles/sjoelbak_base.dir/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sjoelbak_base.dir/Board.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ruud/Development/sjoelbak/sjoelbak-base/Board.cpp > CMakeFiles/sjoelbak_base.dir/Board.cpp.i
+
+CMakeFiles/sjoelbak_base.dir/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sjoelbak_base.dir/Board.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ruud/Development/sjoelbak/sjoelbak-base/Board.cpp -o CMakeFiles/sjoelbak_base.dir/Board.cpp.s
+
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -169,7 +197,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -183,7 +211,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -197,7 +225,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -211,7 +239,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -225,7 +253,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -239,7 +267,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -253,7 +281,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -267,7 +295,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -281,7 +309,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -295,7 +323,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -309,7 +337,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -323,7 +351,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/common/pic
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -337,7 +365,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -351,7 +379,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -365,7 +393,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -379,7 +407,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -393,7 +421,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -447,7 +475,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -461,7 +489,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -474,7 +502,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -487,7 +515,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -501,7 +529,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -515,7 +543,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -528,7 +556,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -541,7 +569,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -554,7 +582,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -568,7 +596,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -582,7 +610,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -595,7 +623,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -609,7 +637,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -622,7 +650,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -635,7 +663,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -649,7 +677,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -663,7 +691,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -677,7 +705,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -691,7 +719,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -705,7 +733,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -719,7 +747,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -733,7 +761,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -747,7 +775,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -761,7 +789,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -775,7 +803,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -789,7 +817,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -803,7 +831,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -817,7 +845,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -831,7 +859,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -845,7 +873,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -859,7 +887,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -873,7 +901,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -887,7 +915,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -901,7 +929,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -915,7 +943,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -929,7 +957,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -943,7 +971,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -957,7 +985,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -971,7 +999,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -985,7 +1013,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -999,7 +1027,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1013,7 +1041,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/sr
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1027,7 +1055,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PicoLedTarget.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PicoLedTarget.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.i: cmake_force
@@ -1041,7 +1069,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedTarget.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PicoLedController.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PicoLedController.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.i: cmake_force
@@ -1055,7 +1083,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedController.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PicoLedEffect.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PicoLedEffect.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.i: cmake_force
@@ -1069,7 +1097,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/PicoLedEffect.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/VirtualStrip.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/VirtualStrip.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.i: cmake_force
@@ -1083,7 +1111,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PioStrip.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PioStrip.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.i: cmake_force
@@ -1097,7 +1125,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/WS2812B.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/WS2812B.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.i: cmake_force
@@ -1111,7 +1139,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Fade.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Fade.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.i: cmake_force
@@ -1125,7 +1153,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Marquee.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Marquee.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.i: cmake_force
@@ -1139,7 +1167,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Marquee.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Stars.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Stars.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.i: cmake_force
@@ -1153,7 +1181,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Stars.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Comet.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Comet.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.i: cmake_force
@@ -1167,7 +1195,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Bounce.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Bounce.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.i: cmake_force
@@ -1181,7 +1209,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj: /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Particles.cpp
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj -MF CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj.d -o CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.obj -c /Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Particles.cpp
 
 CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.i: cmake_force
@@ -1195,7 +1223,7 @@ CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Particles.cpp.s: cmake_force
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1209,7 +1237,7 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/sjoelbak_base.dir/flags.make
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/sjoelbak_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1223,6 +1251,8 @@ CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common
 # Object files for target sjoelbak_base
 sjoelbak_base_OBJECTS = \
 "CMakeFiles/sjoelbak_base.dir/main.cpp.obj" \
+"CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj" \
+"CMakeFiles/sjoelbak_base.dir/Board.cpp.obj" \
 "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1310,6 +1340,8 @@ sjoelbak_base_OBJECTS = \
 sjoelbak_base_EXTERNAL_OBJECTS =
 
 sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/main.cpp.obj
+sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj
+sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/Board.cpp.obj
 sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1395,7 +1427,7 @@ sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico
 sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/build.make
 sjoelbak_base.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 sjoelbak_base.elf: CMakeFiles/sjoelbak_base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable sjoelbak_base.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ruud/Development/sjoelbak/sjoelbak-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX executable sjoelbak_base.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sjoelbak_base.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/ruud/Development/sjoelbak/sjoelbak-base/build/sjoelbak_base.elf sjoelbak_base.hex
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/ruud/Development/sjoelbak/sjoelbak-base/build/sjoelbak_base.elf sjoelbak_base.bin

@@ -220,6 +220,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+Board.obj: Board.cpp.obj
+.PHONY : Board.obj
+
+# target to build an object file
+Board.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/Board.cpp.obj
+.PHONY : Board.cpp.obj
+
+Board.i: Board.cpp.i
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
 PicoLed/Effects/Bounce.obj: PicoLed/Effects/Bounce.cpp.obj
 .PHONY : PicoLed/Effects/Bounce.obj
 
@@ -507,6 +531,30 @@ PicoLed/WS2812B.s: PicoLed/WS2812B.cpp.s
 PicoLed/WS2812B.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.s
 .PHONY : PicoLed/WS2812B.cpp.s
+
+Puck.obj: Puck.cpp.obj
+.PHONY : Puck.obj
+
+# target to build an object file
+Puck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj
+.PHONY : Puck.cpp.obj
+
+Puck.i: Puck.cpp.i
+.PHONY : Puck.i
+
+# target to preprocess a source file
+Puck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/Puck.cpp.i
+.PHONY : Puck.cpp.i
+
+Puck.s: Puck.cpp.s
+.PHONY : Puck.s
+
+# target to generate assembly for a file
+Puck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sjoelbak_base.dir/build.make CMakeFiles/sjoelbak_base.dir/Puck.cpp.s
+.PHONY : Puck.cpp.s
 
 Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -2052,6 +2100,9 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... sjoelbak_base"
+	@echo "... Board.obj"
+	@echo "... Board.i"
+	@echo "... Board.s"
 	@echo "... PicoLed/Effects/Bounce.obj"
 	@echo "... PicoLed/Effects/Bounce.i"
 	@echo "... PicoLed/Effects/Bounce.s"
@@ -2088,6 +2139,9 @@ help:
 	@echo "... PicoLed/WS2812B.obj"
 	@echo "... PicoLed/WS2812B.i"
 	@echo "... PicoLed/WS2812B.s"
+	@echo "... Puck.obj"
+	@echo "... Puck.i"
+	@echo "... Puck.s"
 	@echo "... Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"

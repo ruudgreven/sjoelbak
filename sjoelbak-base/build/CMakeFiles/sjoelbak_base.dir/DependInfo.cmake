@@ -181,6 +181,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "/Users/ruud/Development/sjoelbak/sjoelbak-base/Board.cpp" "CMakeFiles/sjoelbak_base.dir/Board.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/Board.cpp.obj.d"
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Bounce.cpp" "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj.d"
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Comet.cpp" "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj.d"
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/Effects/Fade.cpp" "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Fade.cpp.obj.d"
@@ -193,6 +194,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/PioStrip.cpp" "CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/PicoLed/PioStrip.cpp.obj.d"
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/VirtualStrip.cpp" "CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj.d"
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/PicoLed/WS2812B.cpp" "CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj.d"
+  "/Users/ruud/Development/sjoelbak/sjoelbak-base/Puck.cpp" "CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj.d"
   "/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   "/Users/ruud/Development/sjoelbak/sjoelbak-base/main.cpp" "CMakeFiles/sjoelbak_base.dir/main.cpp.obj" "gcc" "CMakeFiles/sjoelbak_base.dir/main.cpp.obj.d"
   )

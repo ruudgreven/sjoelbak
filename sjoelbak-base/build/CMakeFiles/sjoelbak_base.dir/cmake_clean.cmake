@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sjoelbak_base.dir/Board.cpp.obj"
+  "CMakeFiles/sjoelbak_base.dir/Board.cpp.obj.d"
   "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj"
   "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Bounce.cpp.obj.d"
   "CMakeFiles/sjoelbak_base.dir/PicoLed/Effects/Comet.cpp.obj"
@@ -23,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sjoelbak_base.dir/PicoLed/VirtualStrip.cpp.obj.d"
   "CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj"
   "CMakeFiles/sjoelbak_base.dir/PicoLed/WS2812B.cpp.obj.d"
+  "CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj"
+  "CMakeFiles/sjoelbak_base.dir/Puck.cpp.obj.d"
   "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "CMakeFiles/sjoelbak_base.dir/Users/ruud/Development/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
