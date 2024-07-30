@@ -13,7 +13,7 @@ void Board::setBoardtype(uint boardtype) {
     printf("board:setboardtype:%d\r\n", this->boardtype);
 }
 
-uint Board::getBoardtype() {
+int Board::getBoardtype() {
     return this->boardtype;
 }
 
@@ -25,22 +25,23 @@ void Board::setAvailable() {
 void Board::setUnavailable() {
     this->available = false;
     printf("board:unavailable\r\n");
+    printf("board:startTurn\r\n");
 }
 
 bool Board::isAvailable() {
     return this->available;
 }
 
-void Board::setLaneSensorPassed(uint lanegateNumber) {
+void Board::setLaneSensorPassed(int lanegateNumber) {
     this->lanesensorPassed[lanegateNumber] = true;
     printf("board:lanesensorpassed:%d\r\n", lanegateNumber);
 }
 
-bool Board::isLaneSensorPassed(uint lanegateNumber) {
+bool Board::isLaneSensorPassed(int lanegateNumber) {
     return this->lanesensorPassed[lanegateNumber];
 }
 
-void Board::setCurrentLanesensor(uint currentLanesensor){
+void Board::setCurrentLanesensor(int currentLanesensor){
     this->currentLanesensor = currentLanesensor;
 }
 
@@ -48,11 +49,31 @@ void Board::unsetCurrentLanesensor() {
     this->currentLanesensor = UNDEFINED;
 }
 
-bool Board::getCurrentLaneSensor() {
+int Board::getCurrentLaneSensor() {
     return this->currentLanesensor;
 }
 
-void Board::setScoregatePassed(uint scoregateNumber) {
+void Board::addLaneSensorObstruction(int lanegateNumber) {
+    if (!isLaneSensorObstructed(lanegateNumber)) {
+        lanesensorObstructed[lanegateNumber] = true;
+        printf("board:obstruction_added:%d\r\n", lanegateNumber);
+    }
+}
+
+void Board::removeLaneSensorObstruction(int lanegateNumber) {
+    if (isLaneSensorObstructed(lanegateNumber)) {
+        lanesensorObstructed[lanegateNumber] = false;
+        printf("board:obstruction_removed:%d\r\n", lanegateNumber);
+    }
+}
+
+
+bool Board::isLaneSensorObstructed(int lanegateNumber) {
+    return lanesensorObstructed[lanegateNumber];
+}
+
+
+void Board::setScoregatePassed(int scoregateNumber) {
     this->scoreGateNumber = scoreGateNumber;
     printf("board:scoregatepassed:%d\r\n", scoregateNumber);
 }
@@ -61,13 +82,26 @@ bool Board::isScoregatePassed() {
     return this->scoreGateNumber != UNDEFINED;
 }
 
-void Board::reset() {
-    printf("board:reset\r\n");
+void Board::nextTurn() {
+    printf("board:nextTurn\r\n");
 
-    this->available = true;
     for (int i = 0; i < 7; i++) {
         this->lanesensorPassed[i] = false;
     }
     this->scoreGateNumber = UNDEFINED;
     this->currentLanesensor = UNDEFINED;
+    this->setAvailable();
+}
+
+void Board::reset() {
+    printf("board:reset\r\n");
+    for (int i = 0; i < 7; i++) {
+        this->lanesensorObstructed[i] = false;
+    }
+    for (int i = 0; i < 7; i++) {
+        this->lanesensorPassed[i] = false;
+    }
+    this->scoreGateNumber = UNDEFINED;
+    this->currentLanesensor = UNDEFINED;
+    this->setAvailable();
 }

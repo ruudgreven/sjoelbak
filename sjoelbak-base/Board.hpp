@@ -7,6 +7,8 @@ class Board {
         int boardtype;
         bool available;     //Is false when there is an active puck on the board
         bool lanesensorPassed[7] = {false, false, false, false, false, false, false};
+        bool lanesensorObstructed[7] = {false, false, false, false, false, false, false};
+
         int currentLanesensor;
         int scoreGateNumber;
 
@@ -14,21 +16,26 @@ class Board {
         Board(uint boardtype);
 
         void setBoardtype(uint boardtype);
-        uint getBoardtype();
+        int getBoardtype();
 
         void setAvailable();
         void setUnavailable();
         bool isAvailable();
 
-        void setLaneSensorPassed(uint lanegateNumber);
-        bool isLaneSensorPassed(uint lanegateNumber);
-        void setCurrentLanesensor(uint currentLanesensor);
+        void setLaneSensorPassed(int lanegateNumber);
+        bool isLaneSensorPassed(int lanegateNumber);
+        void setCurrentLanesensor(int currentLanesensor);
         void unsetCurrentLanesensor();
-        bool getCurrentLaneSensor();
+        int getCurrentLaneSensor();
 
-        void setScoregatePassed(uint scoregateNumber);
+        void addLaneSensorObstruction(int lanegateNumber);
+        void removeLaneSensorObstruction(int lanegateNumber);
+        bool isLaneSensorObstructed(int lanegateNumber);
+
+        void setScoregatePassed(int scoregateNumber);
         bool isScoregatePassed();
 
+        void nextTurn();
         void reset();
 };
 #endif

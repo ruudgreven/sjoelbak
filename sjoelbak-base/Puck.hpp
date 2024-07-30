@@ -21,12 +21,12 @@ class Puck {
         double getCurrentSpeed();
         double getTopSpeed();
 
-        void setPositionInLeds(uint positionInLeds);
-        uint getPositionInLeds();
-        uint getPositionInSections();
+        void setPositionInLeds(int positionInLeds);
+        int getPositionInLeds();
+        int getPositionInSections();
 
-        void setLastLanesensorPassed(uint lastLanesensorPassed);
-        uint getLastLanesensorPassed();
+        void setLastLanesensorPassed(int lastLanesensorPassed);
+        int getLastLanesensorPassed();
 
         void setLost();
 

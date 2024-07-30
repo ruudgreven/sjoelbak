@@ -9,79 +9,109 @@
 #include "PicoLedController.hpp"
 
 int currentPuckLastseenTime = UNDEFINED;
+int currentPuckLastseenPosition = UNDEFINED;
 int currentPuckStartTime = UNDEFINED;
 
 Board board = Board(UNDEFINED); 
 Puck puck = Puck();
 
 /**
- * Callback function for lanesensors
+ * Function to set a led position (because the strips are 'the other way around'. Led 0 is near the gates, Led 60 at the start)
+ */
+int ledPosition(uint index) {
+    return 60 - index;
+}
+
+/**
+ * Function to reset the board and the puck and all the timers
+ */
+void nextTurn() {
+    puck.reset();
+    board.nextTurn();
+    currentPuckLastseenTime = UNDEFINED;
+    currentPuckLastseenPosition = UNDEFINED;
+    currentPuckStartTime = UNDEFINED;
+}
+
+/**
+ * Callback function for lanesensors. Assume that lanesensors are connected to adjacent ports.
  */
 void lanesensor_callback(uint gpio, uint32_t events) {
     int lanesensor = gpio - PIN_LANESENSOR0;
 
-    uint mask = (1 << 3);
-    if (events & (1 << 3)) {    //Puck appears
+    if (events & (1 << 2)) {    //Puck appears
+        //Ignore appear events if the lanesensor is obstructed
+        if (board.isLaneSensorObstructed(lanesensor)) {
+            return;
+        }
+
         puck.setCurrentVisible();
         board.setCurrentLanesensor(lanesensor);
+        bool validPass = true;
 
-        if (gpio == PIN_LANESENSOR1) {
-            if (currentPuckLastseenTime != UNDEFINED) {
+        if (gpio == PIN_LANESENSOR1 || (board.isLaneSensorObstructed(1) && gpio == PIN_LANESENSOR2) || (board.isLaneSensorObstructed(2) && gpio == PIN_LANESENSOR3)) {
+            if (currentPuckLastseenTime == UNDEFINED) {
                 //When lanesensor1 is passed for the first time start the throw timer
+                currentPuckLastseenPosition = lanesensor;
                 currentPuckLastseenTime = to_ms_since_boot( get_absolute_time() );
                 currentPuckStartTime = to_ms_since_boot( get_absolute_time() );
 
                 //Set board status
                 board.setUnavailable();
-                board.setLaneSensorPassed(lanesensor);
                 puck.setLastLanesensorPassed(lanesensor);
-                puck.setCurrentSpeed(0);
+                puck.setCurrentSpeed(UNDEFINED);
             } else {
-                //When the puck is on it's way back and passing lanesensor0
-                currentPuckLastseenTime = UNDEFINED;
-                puck.reset();
-                board.reset();
+                //When the puck is on it's way back and passing lanesensor0 reset the board
+                nextTurn();
             }
         } else {
             //If other lanesensors passed, calculate traveltime
-            if (puck.getLastLanesensorPassed() != lanesensor) {
+            if (currentPuckStartTime != UNDEFINED && puck.getLastLanesensorPassed() != lanesensor) {
                 uint currentTime = to_ms_since_boot( get_absolute_time() );
                 uint travelTime = currentTime - currentPuckLastseenTime;
+                uint noOfLanesPassed = lanesensor - currentPuckLastseenPosition;
 
-                double currentPuckSpeed = (1 / (travelTime / 10.0)) * 36; //time in ms / 10cm ( = ms/cm * 36 ( = km/h)
+                double currentPuckSpeed = (1 / (travelTime / 10.0)) * 36 * noOfLanesPassed; //time in ms / 10cm ( = ms/cm * 36 ( = km/h)
                 //If last known position is smaller, then speed is negative (bouncing back)
                 if (puck.getLastLanesensorPassed() > lanesensor) {
                     currentPuckSpeed = -currentPuckSpeed;
                 }
                 puck.setCurrentSpeed(currentPuckSpeed);
+
                 currentPuckLastseenTime = to_ms_since_boot( get_absolute_time() );
+                currentPuckLastseenPosition = lanesensor;
+            } else {
+                validPass = false;
             }
         }
 
-        //TODO: Remove, and set board to available when scored
-        if (gpio == PIN_LANESENSOR6) {
-            board.reset();
-            puck.reset();
-        }
+        if (validPass) {
+            //Set gateposition and interpolated position
+            puck.setLastLanesensorPassed(lanesensor);
+            board.setLaneSensorPassed(lanesensor);
+            puck.setPositionInLeds(LANESENSOR0_OFFSET_IN_LEDS + (lanesensor * LANESENSORS_NO_OF_LEDS));
 
-        //Set gateposition and interpolated position
-        puck.setLastLanesensorPassed(lanesensor);
-        board.setLaneSensorPassed(lanesensor);
-        puck.setPositionInLeds(LANESENSOR0_OFFSET_IN_LEDS + (lanesensor * LANESENSORS_NO_OF_LEDS));
+            //TODO: Remove, and set board to available when scored
+            if (gpio == PIN_LANESENSOR6) {
+                if (board.getBoardtype() == BOARDTYPE_3ZONES) {
+                    printf("game:puckPositionInSections:%d\r\n", -1);
+                }
+                nextTurn();
+            }
+        }
     }
 
-    if (events & (1 << 4)) {    //Puck disappears
+    if (events & (1 << 3)) {    //Puck disappears
         puck.unsetCurrentVisible();
         board.unsetCurrentLanesensor();
+        if (board.isLaneSensorObstructed(lanesensor)) {
+            board.removeLaneSensorObstruction(lanesensor);
+        }
     }
-}
-
-int ledPosition(uint index) {
-    return 60 - index;
 }
 
 int main() {
-    board.setBoardtype(BOARDTYPE_REGULAR);
+    board.setBoardtype(BOARDTYPE_3ZONES);
 
     //Initialize chosen serial port
     stdio_init_all();
@@ -112,41 +142,58 @@ int main() {
 
         //Reset the puck and board if the puck isn't seen for 4 seconds
         if (currentPuckStartTime != UNDEFINED && ( to_ms_since_boot(get_absolute_time()) - currentPuckStartTime) > 4000) {
-            if (board.getCurrentLaneSensor() != UNDEFINED) {
-                printf("system:obstruction:%d\r\n", board.getCurrentLaneSensor());
+            if (board.getBoardtype() == BOARDTYPE_3ZONES) {
+                printf("game:puckPositionInSections:%d\r\n", puck.getPositionInSections()/2);
             }
-            board.reset();
+
+            if (board.getCurrentLaneSensor() != UNDEFINED) {
+                board.addLaneSensorObstruction(board.getCurrentLaneSensor());
+            }
             puck.setLost();
-            puck.reset();
-            currentPuckLastseenTime = UNDEFINED;
-            currentPuckStartTime = UNDEFINED;
+            nextTurn();
         }
 
         //START DRAWING
-        //Set up startzone and begin bar
-        if (board.isAvailable()) {
-            //Start zone yellow
-            ledStripLeft.fill( PicoLed::RGB(240, 240, 20), ledPosition(20), 20);
-            ledStripRight.fill( PicoLed::RGB(240, 240, 20), ledPosition(20), 20);
 
+        //Set up board
+        if (board.getBoardtype() == BOARDTYPE_REGULAR_ICE) {
+            //Start zone
+            ledStripLeft.fill( PicoLed::RGB(26, 50, 230), ledPosition(20), 20);
+            ledStripRight.fill( PicoLed::RGB(26, 50, 230), ledPosition(20), 20);
+
+            //Board
+            ledStripLeft.fillGradient( PicoLed::RGB(26, 50, 230), PicoLed::RGB(26, 194, 230), 0, 36);
+            ledStripRight.fillGradient( PicoLed::RGB(26, 50, 230), PicoLed::RGB(26, 194, 230), 0, 36);
+        } else if (board.getBoardtype() == BOARDTYPE_3ZONES) {
+            //Start zone
+            ledStripLeft.fill( PicoLed::RGB(50, 50, 50), ledPosition(20), 20);
+            ledStripRight.fill( PicoLed::RGB(50, 50, 50), ledPosition(20), 20);
+
+            //Board
+            ledStripLeft.fillGradient( PicoLed::RGB(80, 217, 38), PicoLed::RGB(13, 242, 40), 0, 6);
+            ledStripRight.fillGradient( PicoLed::RGB(80, 217, 38), PicoLed::RGB(13, 242, 40), 0, 6);
+            ledStripLeft.fillGradient( PicoLed::RGB(13, 242, 40), PicoLed::RGB(80, 217, 38), 6, 6);
+            ledStripRight.fillGradient( PicoLed::RGB(13, 242, 40), PicoLed::RGB(80, 217, 38), 6, 6);
+
+            ledStripLeft.fillGradient( PicoLed::RGB(217, 164, 38), PicoLed::RGB(242, 175, 13), 12, 6);
+            ledStripRight.fillGradient( PicoLed::RGB(217, 164, 38), PicoLed::RGB(242, 175, 13), 12, 6);
+            ledStripLeft.fillGradient( PicoLed::RGB(242, 175, 13), PicoLed::RGB(217, 164, 38), 18, 6);
+            ledStripRight.fillGradient( PicoLed::RGB(242, 175, 13), PicoLed::RGB(217, 164, 38), 18, 6); 
+
+            ledStripLeft.fillGradient( PicoLed::RGB(204, 51, 51), PicoLed::RGB(230, 26, 26), 24, 6);
+            ledStripRight.fillGradient( PicoLed::RGB(204, 51, 51), PicoLed::RGB(230, 26, 26), 24, 6);  
+            ledStripLeft.fillGradient( PicoLed::RGB(230, 26, 26), PicoLed::RGB(204, 51, 51), 30, 6);
+            ledStripRight.fillGradient( PicoLed::RGB(230, 26, 26), PicoLed::RGB(204, 51, 51), 30, 6);           
+        }
+        
+        if (board.isAvailable()) {
             //Begin bar green
             ledStripLeft.fill( PicoLed::RGB(20, 255, 20), ledPosition(24), 4);
             ledStripRight.fill( PicoLed::RGB(20, 255, 20), ledPosition(24), 4);
         } else {
-            //Start zone yellow (something else??)
-            ledStripLeft.fill( PicoLed::RGB(240, 240, 20), ledPosition(20), 20);
-            ledStripRight.fill( PicoLed::RGB(240, 240, 20), ledPosition(20), 20);
-
             //Begin bar red
             ledStripLeft.fill( PicoLed::RGB(255, 20, 20), ledPosition(24), 4);
             ledStripRight.fill( PicoLed::RGB(255, 20, 20), ledPosition(24), 4);
-        }
-
-        //Set up board
-        if (board.getBoardtype() == BOARDTYPE_REGULAR) {
-            //The board
-            ledStripLeft.fillGradient( PicoLed::RGB(26, 50, 230), PicoLed::RGB(26, 194, 230), 0, 36);
-            ledStripRight.fillGradient( PicoLed::RGB(26, 50, 230), PicoLed::RGB(26, 194, 230), 0, 36);
         }
 
         //If there is a puck active
@@ -161,8 +208,6 @@ int main() {
             ledStripRight.setPixelColor(ledPosition(puck.getPositionInLeds() + 1), PicoLed::RGB(210,210,255));
             ledStripRight.setPixelColor(ledPosition(puck.getPositionInLeds()), PicoLed::RGB(70,70,190));
             ledStripRight.setPixelColor(ledPosition(puck.getPositionInLeds() - 1), PicoLed::RGB(128,128,146));
-        } else {
-
         }
 
         ledStripLeft.show();

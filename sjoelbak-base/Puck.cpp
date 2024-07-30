@@ -34,23 +34,23 @@ double Puck::getTopSpeed() {
     return this->topSpeed;
 }
 
-void Puck::setPositionInLeds(uint positionInLeds) {
+void Puck::setPositionInLeds(int positionInLeds) {
     this->positionInLeds = positionInLeds;
 }
 
-uint Puck::getPositionInLeds() {
+int Puck::getPositionInLeds() {
     return this->positionInLeds;
 }
 
-uint Puck::getPositionInSections() {
+int Puck::getPositionInSections() {
     return ((this->positionInLeds - LANESENSOR0_OFFSET_IN_LEDS) / LANESENSORS_NO_OF_LEDS) + 1;
 }
 
-void Puck::setLastLanesensorPassed(uint lastLanesensorPassed) {
+void Puck::setLastLanesensorPassed(int lastLanesensorPassed) {
     this->lastLanesensorPassed = lastLanesensorPassed;
 }
 
-uint Puck::getLastLanesensorPassed() {
+int Puck::getLastLanesensorPassed() {
     return this->lastLanesensorPassed;
 }
 
